@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @try.name %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @try.content %>
+</p>
+
+
+<%= link_to 'Edit', edit_try_path(@try) %> |
+<%= link_to 'Back', tries_path %>
